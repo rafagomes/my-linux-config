@@ -1,6 +1,6 @@
 #!/bin/bash
 id=$(xsetwacom --list devices | grep STYLUS | awk -F: '{print $2}' | awk '{print $1}')
-xsetwacom set $id Area 700 400 6066 4166
+#xsetwacom set $id Area 700 400 6066 4166
 xsetwacom --set $id Button 2 "pan"
 xsetwacom --set $id "PanScrollThreshold" 200
 echo "Wacom settings defined"
