@@ -6,7 +6,7 @@ xsetwacom --set $id "PanScrollThreshold" 200
 
 #default value
 #0 0 15200 9500
-x1=7800
+x1=5800
 y1=2375
 x2=15200
 y2=4750
