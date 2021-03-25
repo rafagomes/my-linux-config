@@ -1,0 +1,5 @@
+#!/bin/bash
+nordvpn set dns 1.1.1.1 1.0.0.1
+nordvpn set killswitch on
+nordvpn set autoconnect on
+
